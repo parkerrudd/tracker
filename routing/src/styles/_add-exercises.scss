@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import './variables';
+
+.add-exercises-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $blueGreen;
+    color: $platinum;
+    font-family: 'Baloo 2', cursive;
+    gap: .5em;
+
+    label {
+        font-size: 2.7em;
+        font-family: 'Fredoka One', cursive;
+    }
+
+    input {
+        width: 30vw;
+        border-radius: 999px;
+        padding: 5px 10px;
+        font-family: 'Baloo 2', cursive;
+        font-size: 1.5em;
+    }
+
+    button {
+        color: $platinum;
+        background-color: $blueGreen;
+        padding: .3em;
+        font-size: 2.5em;
+        border: $platinum;
+        cursor: pointer;
+        opacity: .8;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.exercise-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

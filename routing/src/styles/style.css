@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+.App-one {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  background-color: #EBEBEB;
+}
+
+.homepage-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left-screen {
+  width: 50vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #F45B69;
+  color: #EBEBEB;
+}
+
+.left-screen h1 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 4em;
+}
+
+.left-screen h3 {
+  font-family: 'Baloo 2', cursive;
+  text-align: center;
+  margin-top: -1.5em;
+  line-height: 17px;
+  padding: 5px;
+}
+
+.right-screen {
+  width: 50vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2em;
+  color: #F45B69;
+  background-color: #EBEBEB;
+  font-family: 'Baloo 2', cursive;
+}
+
+.right-screen div {
+  width: 30vw;
+  background-color: #59C3C3;
+  border-radius: 999px;
+  padding: 1em;
+  text-align: center;
+  color: #EBEBEB;
+  font-size: 1.5em;
+  cursor: pointer;
+  opacity: .8;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.right-screen div:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    background-image: url("./images/mobile-bg.svg");
+    background-size: cover;
+  }
+  .homepage-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .right-screen {
+    width: 100vw;
+  }
+  .right-screen div {
+    width: 60vw;
+  }
+  .left-screen {
+    width: 100vw;
+    height: 20vh;
+  }
+  .left-screen h1 {
+    margin-top: -2px;
+  }
+  .left-screen h3 {
+    margin-top: -2.3em;
+  }
+}
+
+.add-exercises-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #59C3C3;
+  color: #EBEBEB;
+  font-family: 'Baloo 2', cursive;
+  gap: .5em;
+}
+
+.add-exercises-container label {
+  font-size: 2.7em;
+  font-family: 'Fredoka One', cursive;
+}
+
+.add-exercises-container input {
+  width: 30vw;
+  border-radius: 999px;
+  padding: 5px 10px;
+  font-family: 'Baloo 2', cursive;
+  font-size: 1.5em;
+}
+
+.add-exercises-container button {
+  color: #EBEBEB;
+  background-color: #59C3C3;
+  padding: .3em;
+  font-size: 2.5em;
+  border: #EBEBEB;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.add-exercises-container button:hover {
+  opacity: 1;
+}
+
+.exercise-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
